@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+   País de origem: <input id="txtpais" type="text">
+   <input type="button" value="Enviar"  onclick="enviar()">
+   <div id="res">Você é:</div>
+   
+   <script>
+    function enviar() {
+        var pais = document.getElementById('txtpais')
+        var cida = document.getElementById('res')
+        if (pais == 'Brasil') {
+            cida.innerHTML = ('Você é Brasileiro')
+        } else {
+            cida.innerHTML = ('Você é gringo')
+        }
+        
+       
+        
+
+    }
+   </script>
+</body>
+</html>

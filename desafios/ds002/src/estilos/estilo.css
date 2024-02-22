@@ -1,8 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+
 
 body {
     background-color: blue;
@@ -23,13 +20,13 @@ body {
     border-radius: 10px;
 
     width: 500px;
-    padding: 15px;
+    padding: 10px;
     margin: 20px auto;
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
+
+   
 
     
 }
